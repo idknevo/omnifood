@@ -112,7 +112,7 @@
 
   /* mobile navigation */
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
@@ -148,11 +148,11 @@
     -o-transform: translateX(0);
   }
 
-  .mobile-nav .mobile-nav-icon[name="close-outline"] {
+  .mobile-nav .mobile-nav-icon.close {
     display: block;
   }
 
-  .mobile-nav .mobile-nav-icon[name="menu-outline"] {
+  .mobile-nav .mobile-nav-icon.open {
     display: none;
   }
 
@@ -227,7 +227,7 @@
     width: 80%;
   }
   .logos img {
-    height: 1.2rem;
+    height: 1.4rem;
   }
   .step-img-box {
     transform: translateY(2.4rem);

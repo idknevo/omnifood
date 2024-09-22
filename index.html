@@ -573,10 +573,11 @@
                 first meal is on us!
               </p>
 
-              <form action="#" class="cta-form">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
+                    name="full-name"
                     type="text"
                     name="full-name"
                     id="full-name"
@@ -587,6 +588,7 @@
                 <div>
                   <label for="email">Email Address</label>
                   <input
+                    name="email"
                     type="email"
                     name="email"
                     id="email"
@@ -605,7 +607,9 @@
                     <option value="others">Others</option>
                   </select>
                 </div>
-                <button aria-label="sign up now" class="btn btn-form">Sign up now</button>
+                <button aria-label="sign up now" class="btn btn-form">
+                  Sign up now
+                </button>
               </form>
             </div>
             <div
